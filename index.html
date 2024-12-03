@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_55e677af21d30af7be6dde1819ad252a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_55e677af21d30af7be6dde1819ad252a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_55e677af21d30af7be6dde1819ad252a = L.map(
+                "map_55e677af21d30af7be6dde1819ad252a",
+                {
+                    center: [41.8781, -87.6298],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a28a29073360451de0b6542d1e264511 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55e677af21d30af7be6dde1819ad252a);
+        
+    
+            var marker_149596a3c1d1779585d5369559fb3000 = L.marker(
+                [41.899847, -87.631678],
+                {}
+            ).addTo(map_55e677af21d30af7be6dde1819ad252a);
+        
+    
+        var popup_09b98a8c118761ce490ee1c23daf9f11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb1d3c6915052ac46c6200f72b8f8e0f = $(`<div id="html_cb1d3c6915052ac46c6200f72b8f8e0f" style="width: 100.0%; height: 100.0%;">3 Arts Club Cafe</div>`)[0];
+            popup_09b98a8c118761ce490ee1c23daf9f11.setContent(html_cb1d3c6915052ac46c6200f72b8f8e0f);
+        
+
+        marker_149596a3c1d1779585d5369559fb3000.bindPopup(popup_09b98a8c118761ce490ee1c23daf9f11)
+        ;
+
+        
+    
+    
+            var marker_67dfb15d82fd8781f93d51a594f8f7a4 = L.marker(
+                [41.879584, -87.623713],
+                {}
+            ).addTo(map_55e677af21d30af7be6dde1819ad252a);
+        
+    
+        var popup_fc1ad1afad303a52543bdafaf66da8e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13ebc5efe70da318bdb679237d188482 = $(`<div id="html_13ebc5efe70da318bdb679237d188482" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago</div>`)[0];
+            popup_fc1ad1afad303a52543bdafaf66da8e9.setContent(html_13ebc5efe70da318bdb679237d188482);
+        
+
+        marker_67dfb15d82fd8781f93d51a594f8f7a4.bindPopup(popup_fc1ad1afad303a52543bdafaf66da8e9)
+        ;
+
+        
+    
+    
+            var marker_83ad1ac58a3fc271c44530f2db8b6d84 = L.marker(
+                [41.878876, -87.635915],
+                {}
+            ).addTo(map_55e677af21d30af7be6dde1819ad252a);
+        
+    
+        var popup_fbc0a7feee81f14190960f4d0c77587c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a75270ffd206d250e6245f4f831b7a2c = $(`<div id="html_a75270ffd206d250e6245f4f831b7a2c" style="width: 100.0%; height: 100.0%;">Willis Tower</div>`)[0];
+            popup_fbc0a7feee81f14190960f4d0c77587c.setContent(html_a75270ffd206d250e6245f4f831b7a2c);
+        
+
+        marker_83ad1ac58a3fc271c44530f2db8b6d84.bindPopup(popup_fbc0a7feee81f14190960f4d0c77587c)
+        ;
+
+        
+    
+    
+            var marker_d3211d9d7fabf6eb89da85bcf9221972 = L.marker(
+                [41.882702, -87.619392],
+                {}
+            ).addTo(map_55e677af21d30af7be6dde1819ad252a);
+        
+    
+        var popup_7d9a7a39d57322fc45e1d258b6d3baf2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b52f7c7895bff2e107f8b4663dfa3160 = $(`<div id="html_b52f7c7895bff2e107f8b4663dfa3160" style="width: 100.0%; height: 100.0%;">Millennium Park</div>`)[0];
+            popup_7d9a7a39d57322fc45e1d258b6d3baf2.setContent(html_b52f7c7895bff2e107f8b4663dfa3160);
+        
+
+        marker_d3211d9d7fabf6eb89da85bcf9221972.bindPopup(popup_7d9a7a39d57322fc45e1d258b6d3baf2)
+        ;
+
+        
+    
+    
+            var marker_6dd9f066a8eefa9e7c056e5e6a242c40 = L.marker(
+                [41.891551, -87.607375],
+                {}
+            ).addTo(map_55e677af21d30af7be6dde1819ad252a);
+        
+    
+        var popup_0d2361c5e4dccd532d43fab9c55e56ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d397a422e6a33ac7f5bcdd7673089645 = $(`<div id="html_d397a422e6a33ac7f5bcdd7673089645" style="width: 100.0%; height: 100.0%;">Navy Pier</div>`)[0];
+            popup_0d2361c5e4dccd532d43fab9c55e56ef.setContent(html_d397a422e6a33ac7f5bcdd7673089645);
+        
+
+        marker_6dd9f066a8eefa9e7c056e5e6a242c40.bindPopup(popup_0d2361c5e4dccd532d43fab9c55e56ef)
+        ;
+
+        
+    
+    
+            var marker_af96e64e934398ad1580b66c83b19cd2 = L.marker(
+                [41.891597, -87.609179],
+                {}
+            ).addTo(map_55e677af21d30af7be6dde1819ad252a);
+        
+    
+        var popup_197c5b7ae6e407e9e6e7779ee6483dda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93bb673e5bf3e0d77a0de4711a0b4247 = $(`<div id="html_93bb673e5bf3e0d77a0de4711a0b4247" style="width: 100.0%; height: 100.0%;">Polk Bros Park</div>`)[0];
+            popup_197c5b7ae6e407e9e6e7779ee6483dda.setContent(html_93bb673e5bf3e0d77a0de4711a0b4247);
+        
+
+        marker_af96e64e934398ad1580b66c83b19cd2.bindPopup(popup_197c5b7ae6e407e9e6e7779ee6483dda)
+        ;
+
+        
+    
+    
+            var marker_0f7c35087897ee038ba35b2675b59294 = L.marker(
+                [41.8949, -87.609834],
+                {}
+            ).addTo(map_55e677af21d30af7be6dde1819ad252a);
+        
+    
+        var popup_53151933a40c860cb3e946e5293ac8df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04a992610a427c70a86a7a529f583050 = $(`<div id="html_04a992610a427c70a86a7a529f583050" style="width: 100.0%; height: 100.0%;">Milton Lee Olive Park</div>`)[0];
+            popup_53151933a40c860cb3e946e5293ac8df.setContent(html_04a992610a427c70a86a7a529f583050);
+        
+
+        marker_0f7c35087897ee038ba35b2675b59294.bindPopup(popup_53151933a40c860cb3e946e5293ac8df)
+        ;
+
+        
+    
+    
+            var marker_e4872420a9860b8e9228d3d285474f63 = L.marker(
+                [41.921438, -87.633832],
+                {}
+            ).addTo(map_55e677af21d30af7be6dde1819ad252a);
+        
+    
+        var popup_656b914755e9eba6bbf908633a5a2e46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7db26ab4f6282906cb6c17db1a2d9dbc = $(`<div id="html_7db26ab4f6282906cb6c17db1a2d9dbc" style="width: 100.0%; height: 100.0%;">Lincoln Park Zoo</div>`)[0];
+            popup_656b914755e9eba6bbf908633a5a2e46.setContent(html_7db26ab4f6282906cb6c17db1a2d9dbc);
+        
+
+        marker_e4872420a9860b8e9228d3d285474f63.bindPopup(popup_656b914755e9eba6bbf908633a5a2e46)
+        ;
+
+        
+    
+    
+            var marker_d36875a42516735f0ffc64d5fb6a0643 = L.marker(
+                [41.891551, -87.607375],
+                {}
+            ).addTo(map_55e677af21d30af7be6dde1819ad252a);
+        
+    
+        var popup_b82a98c536e332240bb80bcd9dab49a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b19ab851b1ddd5f3c8f417a09965654d = $(`<div id="html_b19ab851b1ddd5f3c8f417a09965654d" style="width: 100.0%; height: 100.0%;">Offshore Rooftop</div>`)[0];
+            popup_b82a98c536e332240bb80bcd9dab49a2.setContent(html_b19ab851b1ddd5f3c8f417a09965654d);
+        
+
+        marker_d36875a42516735f0ffc64d5fb6a0643.bindPopup(popup_b82a98c536e332240bb80bcd9dab49a2)
+        ;
+
+        
+    
+    
+            var poly_line_608121421862693259c9cb9b67d09a5a = L.polyline(
+                [[41.899847, -87.631678], [41.879584, -87.623713], [41.878876, -87.635915], [41.882702, -87.619392], [41.891551, -87.607375], [41.891597, -87.609179], [41.8949, -87.609834], [41.921438, -87.633832], [41.891551, -87.607375]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_55e677af21d30af7be6dde1819ad252a);
+        
+</script>
+</html>
